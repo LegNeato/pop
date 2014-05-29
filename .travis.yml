@@ -1,6 +1,7 @@
 language: objective-c
 before_install:
   - gem update cocoapods
+  - brew update xctool
 before_script:
   - export LANG=en_US.UTF-8
 xcode_workspace: pop.xcworkspace
