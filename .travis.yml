@@ -1,11 +1,11 @@
 language: objective-c
 before_install:
-  - gem update cocoapods
+  - brew update
   - brew upgrade xctool
-before_script:
-  - export LANG=en_US.UTF-8
+  - gem update cocoapods
 xcode_workspace: pop.xcworkspace
 xcode_scheme: pop
 xcode_sdk:
+  - macosx10.9
   - iphonesimulator7.0
   - iphonesimulator7.1
